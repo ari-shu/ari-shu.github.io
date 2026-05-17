@@ -292,7 +292,7 @@ const Index = () => {
             <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">Publications</p>
           </motion.div>
           <div className="lg:col-span-8 space-y-0">
-            {publications.map((pub, i) => (
+            {workingPapers.map((pub, i) => (
               <motion.div
                 key={i}
                 initial="hidden"
