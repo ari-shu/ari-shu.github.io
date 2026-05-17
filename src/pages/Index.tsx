@@ -17,7 +17,7 @@ import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
-const working papers = [
+const workingPapers = [
   {
     title:
       '"we need to express our own values": stylization capacity across institutional deployments of large language models',
@@ -292,7 +292,7 @@ const Index = () => {
             <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">Publications</p>
           </motion.div>
           <div className="lg:col-span-8 space-y-0">
-            {publications.map((pub, i) => (
+            {workingPapers.map((pub, i) => (
               <motion.div
                 key={i}
                 initial="hidden"
