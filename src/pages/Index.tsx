@@ -17,7 +17,7 @@ import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
-const workingPapers = [
+const working papers = [
   {
     title:
       '"we need to express our own values": stylization capacity across institutional deployments of large language models',
@@ -49,7 +49,7 @@ const workingPapers = [
     tags: ["exteralities"],
   },
   {
-    title: '"productive failure as a guiding framework for ai systems in education"',
+    title: 'productive failure as a guiding framework for ai systems in education',
     authors: (
       <>
         <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
@@ -58,7 +58,7 @@ const workingPapers = [
     tags: ["education"],
   },
   {
-    title: '"ethics of ai-assisted learning: a deweyan analysis',
+    title: 'ethics of ai-assisted learning: a deweyan analysis',
     authors: (
       <>
         <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
@@ -267,7 +267,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Decorative strip between About and Working Papers */}
+      {/* Decorative strip between About and Publications */}
       <div className="relative max-w-6xl mx-auto px-8 md:px-16">
         <div className="flex items-center justify-between py-6">
           <FloatingImage src={bowl} alt="" className="w-28 md:w-40" delay={0.1} />
@@ -275,7 +275,7 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Working Papers */}
+      {/* Publications */}
       <section id="research" className="py-20 md:py-28 px-8 md:px-16 relative">
         {/* Decorative: tree floating right */}
         <FloatingImage src={tree} alt="" className="hidden lg:block absolute bottom-16 -right-2 w-20" delay={0.5} />
@@ -289,10 +289,10 @@ const Index = () => {
             variants={fade}
             custom={0}
           >
-            <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">Working Papers</p>
+            <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">Publications</p>
           </motion.div>
           <div className="lg:col-span-8 space-y-0">
-            {workingPapers.map((pub, i) => (
+            {publications.map((pub, i) => (
               <motion.div
                 key={i}
                 initial="hidden"
@@ -322,7 +322,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Decorative strip between Working Papers and Projects */}
+      {/* Decorative strip between Publications and Projects */}
       <div className="relative max-w-6xl mx-auto px-8 md:px-16">
         <div className="flex items-center justify-center gap-12 py-8">
           <FloatingImage src={vase} alt="" className="w-20 md:w-28" delay={0.1} />
