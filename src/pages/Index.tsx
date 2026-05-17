@@ -17,13 +17,13 @@ import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
-const workingPapers = [
+const working papers = [
   {
     title:
-      'we need to express our own values: stylization capacity across institutional deployments of large language models',
+      '"we need to express our own values": stylization capacity across institutional deployments of large language models',
     authors: (
       <>
-        <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
+        <strong className="font-semibold text-foreground">shulman</strong>, bhatt
       </>
     ),
     tags: ["stylization"],
@@ -32,8 +32,8 @@ const workingPapers = [
     title: "epistemic pluralism via institution-specific orchestration layers",
     authors: (
       <>
-        <strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, elaf almahmoud,
-        umang bhatt
+        <strong className="font-semibold text-foreground">shulman</strong>, devedzhiev, almahmoud,
+        bhatt
       </>
     ),
     tags: ["stylization", "tools"],
@@ -42,8 +42,8 @@ const workingPapers = [
     title: "secondhand ai",
     authors: (
       <>
-        bernardo villegas moreno, katherine collins,{" "}
-        <strong className="font-semibold text-foreground">ariella shulman</strong>, ilia sucholutsky, umang bhatt
+        villegas moreno, collins,{" "}
+        <strong className="font-semibold text-foreground">shulman</strong>, sucholutsky, bhatt
       </>
     ),
     tags: ["exteralities"],
@@ -52,7 +52,7 @@ const workingPapers = [
     title: 'productive failure as a guiding framework for ai systems in education',
     authors: (
       <>
-        <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
+        <strong className="font-semibold text-foreground">shulman</strong>, bhatt
       </>
     ),
     tags: ["education"],
@@ -61,7 +61,7 @@ const workingPapers = [
     title: 'ethics of ai-assisted learning: a deweyan analysis',
     authors: (
       <>
-        <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
+        <strong className="font-semibold text-foreground">shulman</strong>, bhatt
       </>
     ),
     tags: ["education"],
@@ -292,7 +292,7 @@ const Index = () => {
             <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">Publications</p>
           </motion.div>
           <div className="lg:col-span-8 space-y-0">
-            {workingPapers.map((pub, i) => (
+            {publications.map((pub, i) => (
               <motion.div
                 key={i}
                 initial="hidden"
