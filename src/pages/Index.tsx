@@ -17,22 +17,21 @@ import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
-const publications = [
+const working papers = [
   {
-    title: "second-hand ai",
-    authors: "[forthcoming]",
-    venue: "",
-    tags: ["ai", "sociology"],
+    title: '"we need to express our own values": stylization capacity across institutional deployments of large language models',
+    authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt</>,
+    tags: ["stylization", "epistemic pluralism"],
   },
   {
-    title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
-    authors: (
-      <>
-        <strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, umang bhatt
-      </>
-    ),
-    venue: "[under review @ acm facct]",
-    tags: ["ai", "epistemology"],
+    title: "stylize, escalate, refuse: epistemic pluralism via institution-specific orchestration layers",
+    authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, elaf almahmoud, umang bhatt</>,
+    tags: ["stylization", "tools"],
+  },
+  {
+    title: "secondhand ai",
+    authors: <>bernardo villegas moreno, katherine collins, <strong className="font-semibold text-foreground">ariella shulman</strong>, ilia sucholutsky, umang bhatt</>,
+    tags: ["exteralities"],
   },
 ];
 
