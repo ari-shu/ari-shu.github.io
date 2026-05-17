@@ -17,7 +17,7 @@ import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
-const working papers = [
+const publications = [
   {
     title: '"we need to express our own values": stylization capacity across institutional deployments of large language models',
     authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt</>,
@@ -283,7 +283,6 @@ const Index = () => {
                   {pub.title}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
-                <p className="text-sm text-muted-foreground italic">{pub.venue}</p>
               </motion.div>
             ))}
           </div>
