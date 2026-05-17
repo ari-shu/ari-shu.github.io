@@ -17,7 +17,7 @@ import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
-const working papers = [
+const workingPapers = [
   {
     title:
       'we need to express our own values: stylization capacity across institutional deployments of large language models',
