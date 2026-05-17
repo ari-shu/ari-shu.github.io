@@ -283,7 +283,6 @@ const Index = () => {
                   {pub.title}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
-                <p className="text-sm text-muted-foreground italic">{pub.venue}</p>
               </motion.div>
             ))}
           </div>
