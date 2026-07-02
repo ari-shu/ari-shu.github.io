@@ -1,7 +1,5 @@
 # ariella shulman's personal website
 
-My personal website, built with [Lovable](https://lovable.dev) and hosted at **[ariellashulman.lovable.app](https://ariellashulman.lovable.app)**.
-
 ---
 
 ## Tech Stack
