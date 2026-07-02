@@ -32,8 +32,7 @@ const workingPapers = [
     title: "epistemic pluralism via institution-specific orchestration layers",
     authors: (
       <>
-        <strong className="font-semibold text-foreground">shulman</strong>, devedzhiev, almahmoud,
-        bhatt
+        <strong className="font-semibold text-foreground">shulman</strong>, devedzhiev, almahmoud, bhatt
       </>
     ),
     tags: ["stylization", "tools"],
@@ -42,14 +41,13 @@ const workingPapers = [
     title: "secondhand ai",
     authors: (
       <>
-        villegas moreno, collins,{" "}
-        <strong className="font-semibold text-foreground">shulman</strong>, sucholutsky, bhatt
+        villegas moreno, collins, <strong className="font-semibold text-foreground">shulman</strong>, sucholutsky, bhatt
       </>
     ),
     tags: ["exteralities"],
   },
   {
-    title: 'productive failure as a guiding framework for ai systems in education',
+    title: "productive failure as a guiding framework for ai systems in education",
     authors: (
       <>
         <strong className="font-semibold text-foreground">shulman</strong>, bhatt
@@ -58,7 +56,7 @@ const workingPapers = [
     tags: ["education"],
   },
   {
-    title: 'ethics of ai-assisted learning: a deweyan analysis',
+    title: "ethics of ai-assisted learning: a deweyan analysis",
     authors: (
       <>
         <strong className="font-semibold text-foreground">shulman</strong>, bhatt
@@ -70,7 +68,7 @@ const workingPapers = [
 
 const projects = [
   {
-    title: "Cultural Diversity in the Era of Algorithmic Monoculture",
+    title: "ultural Diversity in the Era of Algorithmic Monoculture",
     description:
       "satellite dialogue at 2026 india ai impact summit investigating multi-stakeholder perspectives on institutional ai deployment. conducted interviews across industry, academia, and policy.",
     tags: ["research", "social infrastructure"],
