@@ -68,7 +68,7 @@ const workingPapers = [
 
 const projects = [
   {
-    title: "ultural Diversity in the Era of Algorithmic Monoculture",
+    title: "Cultural Diversity in the Era of Algorithmic Monoculture",
     description:
       "satellite dialogue at 2026 india ai impact summit investigating multi-stakeholder perspectives on institutional ai deployment. conducted interviews across industry, academia, and policy.",
     tags: ["research", "social infrastructure"],
