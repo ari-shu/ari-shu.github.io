@@ -152,16 +152,29 @@ body {
     text-decoration-color: #4f4f4f;
 }
 
-.research-year {
-    margin: -0.45rem 0 1.1rem;
+.research-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+    gap: 4rem;
+    max-width: 952px;
+    margin: 0 auto;
+}
+
+.research-column h3 {
+    margin: 0 0 1.15rem;
     color: #343a40;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
+.research-placeholder {
+    margin: 0;
+    color: #777;
+    font-style: italic;
+}
+
 .research-list {
-    max-width: 820px;
-    margin-left: 1.35rem;
+    margin-left: 1.1rem;
     padding-left: 0.85rem;
 }
 
@@ -387,6 +400,11 @@ a:focus-visible {
     .profile-image {
         width: 200px;
         margin-bottom: 0.5rem;
+    }
+
+    .research-columns {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
     .blog-list {
