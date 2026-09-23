@@ -306,6 +306,7 @@ body {
     .talk-india {
         width: min(100%, 220px);
         max-width: 220px;
+        margin-left: 1.25rem;
     }
 
     .talk-madfest {
@@ -436,6 +437,10 @@ a:focus-visible {
     .talk-india {
         width: min(82%, 320px);
         align-self: center;
+    }
+
+    .talk-india {
+        margin-left: 0;
     }
 
     .future-section {
