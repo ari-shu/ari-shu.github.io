@@ -265,9 +265,14 @@ body {
     align-items: start;
     justify-content: space-between;
     column-gap: 1.625rem;
-    row-gap: 2.25rem;
     max-width: 952px;
     margin: 0 auto;
+}
+
+.speaking-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .speaking-item {
@@ -275,48 +280,40 @@ body {
     margin: 0;
 }
 
-.speaking-item:nth-child(5) {
-    width: 250px;
-    max-width: 250px;
-    justify-self: start;
-}
-
 @media (min-width: 769px) {
-    .speaking-item:nth-child(1) {
-        width: min(100%, 300px);
+    .speaking-column:nth-child(1) {
         margin-top: 0.35rem;
-        justify-self: start;
     }
 
-    .speaking-item:nth-child(2) {
-        width: min(100%, 225px);
-        margin-top: 0;
-        justify-self: center;
+    .speaking-column:nth-child(2) {
+        align-items: center;
     }
 
-    .speaking-item:nth-child(3) {
-        width: min(100%, 292px);
+    .speaking-column:nth-child(3) {
+        align-items: flex-end;
         margin-top: 1rem;
-        justify-self: end;
     }
 
-    .speaking-item:nth-child(4) {
+    .talk-elab,
+    .talk-ellis {
         width: min(100%, 300px);
-        margin-top: 1.25rem;
-        justify-self: start;
     }
 
-    .speaking-item:nth-child(5) {
+    .talk-union {
+        width: min(100%, 225px);
+    }
+
+    .talk-india {
         width: min(100%, 220px);
         max-width: 220px;
-        margin-top: 0.25rem;
-        justify-self: center;
     }
 
-    .speaking-item:nth-child(6) {
+    .talk-madfest {
+        width: min(100%, 292px);
+    }
+
+    .talk-fox {
         width: min(100%, 284px);
-        margin-top: 0.75rem;
-        justify-self: end;
     }
 }
 
@@ -419,17 +416,26 @@ a:focus-visible {
     }
 
     .speaking-gallery {
-        grid-template-columns: minmax(0, 390px);
+        display: flex;
+        flex-direction: column;
         row-gap: 2rem;
     }
 
-    .speaking-item:nth-child(4),
-    .speaking-item:nth-child(6) {
-        margin-top: 0;
+    .speaking-column {
+        display: contents;
     }
 
-    .speaking-item:nth-child(5) {
-        justify-self: center;
+    .talk-elab { order: 1; }
+    .talk-union { order: 2; }
+    .talk-madfest { order: 3; }
+    .talk-ellis { order: 4; }
+    .talk-india { order: 5; }
+    .talk-fox { order: 6; }
+
+    .talk-union,
+    .talk-india {
+        width: min(82%, 320px);
+        align-self: center;
     }
 
     .future-section {
