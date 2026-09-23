@@ -283,19 +283,20 @@ body {
 
 @media (min-width: 769px) {
     .speaking-item:nth-child(1) {
-        width: min(100%, 288px);
+        width: min(100%, 300px);
+        margin-top: 0.35rem;
         justify-self: start;
     }
 
     .speaking-item:nth-child(2) {
-        width: min(100%, 300px);
-        margin-top: 0.25rem;
+        width: min(100%, 225px);
+        margin-top: 0;
         justify-self: center;
     }
 
     .speaking-item:nth-child(3) {
         width: min(100%, 292px);
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         justify-self: end;
     }
 
