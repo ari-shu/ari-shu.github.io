@@ -202,6 +202,17 @@ body {
     line-height: 1.35;
 }
 
+.research-title a {
+    color: #777;
+    text-decoration-color: rgb(119 119 119 / 35%);
+}
+
+.research-title a:hover,
+.research-title a:focus-visible {
+    color: #4f4f4f;
+    text-decoration-color: #4f4f4f;
+}
+
 .research-authors {
     color: #3d4b57;
     font-size: 0.94rem;
