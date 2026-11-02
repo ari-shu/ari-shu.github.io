@@ -167,6 +167,10 @@ body {
     font-weight: 600;
 }
 
+.research-column .research-theses-heading {
+    margin-top: 1.8rem;
+}
+
 .research-placeholder {
     margin: 0;
     color: #777;
