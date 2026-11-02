@@ -154,8 +154,8 @@ body {
 
 .research-columns {
     display: grid;
-    grid-template-columns: minmax(0, 0.58fr) minmax(0, 1.05fr) minmax(0, 1.55fr);
-    gap: 2.25rem;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.5fr);
+    gap: 3.5rem;
     max-width: 952px;
     margin: 0 auto;
 }
